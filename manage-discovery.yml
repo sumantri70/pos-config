@@ -1,0 +1,19 @@
+server:
+  port: ${SERVER_PORT:1761}
+
+# management:
+#   server:
+#     port: ${MANAGEMENT_PORT:18761}  
+
+# tlm:
+#   service:
+#     typeCode: ${SPRING_APPLICATION_NAME:manage-discovery}
+#     code: ${SPRING_APPLICATION_NAME:manage-discovery}
+#     instanceCode: ${APP_SERVER_INSTANCE_CODE:manage-discovery}
+
+# spring:
+#   security:
+#     user:
+#       password: ksidiscovery.1
+#       name: ksidiscovery
+        

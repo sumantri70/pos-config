@@ -1,1 +1,9 @@
-test: hahah
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 30
+    health-check-url-path: /actuator/health
+    prefer-ip-address: true
+  client:
+    registryFetchIntervalSeconds: 30
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE:http://localhost:8761/eureka}
