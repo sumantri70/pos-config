@@ -1,5 +1,5 @@
 server:
-  port: ${SERVER_PORT:1761}
+  port: ${SERVER_PORT:8761}
 
 # management:
 #   server:
